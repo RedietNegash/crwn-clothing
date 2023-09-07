@@ -1,0 +1,39 @@
+/* StripeCheckoutButton.scss */
+
+.stripe-checkout-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .checkout-form {
+      width: 100%;
+      max-width: 400px;
+  
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+  
+        label {
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+  
+        input {
+          padding: 8px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  
+  /* Add your custom styles here as needed */
+  
